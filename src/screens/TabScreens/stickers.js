@@ -11,7 +11,7 @@ import {
 import s from '../../styles/main.style';
 import RNWhatsAppStickers from 'react-native-whatsapp-stickers';
 import sticker_base from '../../stickers.json';
-import {interstitial_key3, banner_key3} from '../../Constants';
+import {interstitial_key3, banner_key3, day_title} from '../../Constants';
 
 import {
   BannerAd,
@@ -68,7 +68,7 @@ const StickerScreen = () => {
       <View style={[s.mdtp20, s.pdlt10]}>
         <View style={s.row}>
           <View style={[s.fl1, s.jCenter, s.mdtp10]}>
-            <Text style={[{fontSize: 20}, s.b]}>Durga Puja</Text>
+            <Text style={[{fontSize: 20}, s.b]}>{day_title}</Text>
             <Text style={[{fontSize: 12}]}>Add sticker pack</Text>
           </View>
           <View style={s.fl1}>
