@@ -1,4 +1,4 @@
-package com.rudelabs.janmashtami_wishes;
+package com.rudelabs.thanksgiving_wishes;
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

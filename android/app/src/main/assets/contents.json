@@ -2,7 +2,7 @@
   "sticker_packs": [
     {
       "identifier": "stickers",
-      "name": "Janmashtami Wishes",
+      "name": "Thanksgiving Wishes",
       "publisher": "Ru-De Labs",
       "tray_image_file": "sticker_icon.png",
       "publisher_email": "info@rudelabs.in",
@@ -21,9 +21,6 @@
         },
         {
           "image_file": "4.webp"
-        },
-        {
-          "image_file": "5.webp"
         }
       ]
     }

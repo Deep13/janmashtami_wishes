@@ -1,4 +1,4 @@
-package com.rudelabs.janmashtami_wishes.newarchitecture.components;
+package com.rudelabs.thanksgiving_wishes.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

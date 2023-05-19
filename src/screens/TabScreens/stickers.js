@@ -31,7 +31,7 @@ const StickerScreen = () => {
     RNWhatsAppStickers.isWhatsAppAvailable()
       .then(isAvailable => {
         if (isAvailable) {
-          return RNWhatsAppStickers.send('stickers', 'Janmashtami Wishes');
+          return RNWhatsAppStickers.send('stickers', 'Thanksgiving Wishes');
         }
         return undefined;
       })

@@ -1,4 +1,4 @@
-package com.rudelabs.janmashtami_wishes.newarchitecture.modules;
+package com.rudelabs.thanksgiving_wishes.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

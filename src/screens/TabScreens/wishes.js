@@ -202,7 +202,7 @@ const Wishes = props => {
         ref={ref => {
           this.RBSheet = ref;
         }}
-        height={200}
+        height={300}
         openDuration={250}
         onClose={closeLanguage}>
         <View style={[s.fl1, s.pdlt10, s.pdtp10, {flexDirection: 'column'}]}>
@@ -212,7 +212,7 @@ const Wishes = props => {
             </Text>
           </View>
 
-          <View style={[s.fl2, s.pdlt20, s.pdtp30, s.row, s.aSCenter]}>
+          <View style={[s.fl2, s.pdlt20, s.pdbt20, s.row, s.aSCenter]}>
             {s_language.map((data, i) => {
               return (
                 <TouchableOpacity
@@ -225,12 +225,13 @@ const Wishes = props => {
                       ? {borderWidth: 2, borderColor: 'cornflowerblue'}
                       : {borderWidth: 2, borderColor: '#d3d3d3'},
                     {
-                      width: 100,
+                      width: '25%',
                       height: 40,
                       borderRadius: 24,
                       justifyContent: 'center',
                       alignItems: 'center',
                       marginRight: 30,
+                      marginBottom: 10,
                     },
                   ]}>
                   <Text>{data.lang}</Text>
